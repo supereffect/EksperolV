@@ -2,7 +2,7 @@
 
 **Son güncelleme:** 05 Mart 2026
 
-Bu Gizliliasdask Politikası, **Eksperol** mobil uygulamasının kullanıcı verilerini nasıl topladığını, kullandığını, sakladığını ve paylaştığını açıklar.
+Bu Gizlilik Politikası, **Eksperol** mobil uygulamasının kullanıcı verilerini nasıl topladığını, kullandığını, sakladığını ve paylaştığını açıklar.
 
 ## 1) Geliştirici Bilgisi
 - Geliştirici/Şirket: Bubuapps
