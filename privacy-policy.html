@@ -1,178 +1,309 @@
 <!doctype html>
-<html lang="tr">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Eksperol Privacy Policy / Gizlilik Politikası</title>
-  <style>
-    :root {
-      --bg: #0b1020;
-      --card: #121b33;
-      --text: #e8efff;
-      --muted: #afbddf;
-      --accent: #5f8dff;
-      --line: #2a3a67;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      background: radial-gradient(circle at top, #132247 0%, var(--bg) 60%);
-      color: var(--text);
-      line-height: 1.6;
-    }
-    .container {
-      width: min(980px, 92%);
-      margin: 32px auto;
-    }
-    .card {
-      background: linear-gradient(180deg, rgba(95, 141, 255, 0.08), rgba(18, 27, 51, 0.96));
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 24px;
-      margin-bottom: 18px;
-    }
-    h1 { margin: 0 0 8px; font-size: 30px; }
-    h2 {
-      margin: 0 0 12px;
-      font-size: 22px;
-      color: #d8e4ff;
-      border-bottom: 1px solid var(--line);
-      padding-bottom: 8px;
-    }
-    h3 { margin: 18px 0 8px; color: #d2deff; }
-    p, li { color: var(--muted); }
-    .badge {
-      display: inline-block;
-      background: rgba(95, 141, 255, 0.22);
-      border: 1px solid rgba(95, 141, 255, 0.55);
-      color: #dce7ff;
-      border-radius: 999px;
-      padding: 4px 10px;
-      font-size: 13px;
-      margin-right: 8px;
-    }
-    .lang-nav { margin-bottom: 14px; }
-    .lang-nav a {
-      color: #dce7ff;
-      text-decoration: none;
-      border: 1px solid var(--line);
-      padding: 8px 12px;
-      border-radius: 10px;
-      margin-right: 8px;
-      display: inline-block;
-    }
-    .lang-nav a:hover { border-color: var(--accent); }
-    a { color: #9fc0ff; }
-    .footer { text-align: center; color: #91a6d6; font-size: 13px; margin-top: 18px; }
-  </style>
-</head>
-<body>
-  <main class="container">
-    <section class="card">
-      <span class="badge">Eksperol</span>
-      <span class="badge">Mobile App</span>
-      <h1>Privacy Policy / Gizlilik Politikası</h1>
-      <p><strong>Last updated / Son güncelleme:</strong> 05 March 2026</p>
-      <div class="lang-nav">
-        <a href="#tr">TR</a>
-        <a href="#en">EN</a>
-      </div>
-      <p>This page contains both Turkish and English versions of the Eksperol Privacy Policy.</p>
-      <p>Bu sayfada Eksperol Gizlilik Politikası'nın hem Türkçe hem İngilizce sürümü yer alır.</p>
-    </section>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Eksperol mobile application privacy policy in English and Turkish." />
+    <title>Eksperol App Privacy Policy / Uygulama Gizlilik Politikası</title>
+    <style>
+      :root { color-scheme: light dark; --bg:#0b1325; --card:#152344; --text:#eaf0ff; --muted:#b6c5e7; --line:#334d7d; --link:#8bb8ff; --accent:#5c82d2; }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif; }
+      main { max-width:980px; margin:auto; padding:28px 18px 70px; }
+      header, section { background:rgba(21,35,68,.94); border:1px solid var(--line); border-radius:18px; padding:22px; margin:14px 0; }
+      header { background:linear-gradient(135deg,#152344,#1d3768); }
+      h1 { font-size:30px; margin:0 0 8px; line-height:1.25; }
+      h2 { font-size:21px; margin:0 0 10px; line-height:1.3; }
+      h3 { font-size:17px; margin:18px 0 6px; }
+      p { margin:8px 0; }
+      ul { margin:8px 0 8px 22px; padding:0; }
+      li { margin:5px 0; }
+      a { color:var(--link); }
+      .muted { color:var(--muted); }
+      .badge { display:inline-block; padding:4px 10px; margin:3px 4px 3px 0; border-radius:999px; border:1px solid #5578bd; background:rgba(92,130,210,.18); font-size:13px; }
+      nav { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; }
+      nav a { text-decoration:none; padding:8px 12px; border:1px solid #668bd4; border-radius:10px; }
+      .language-break { margin:50px 0 18px; border:0; border-top:2px solid var(--accent); }
+      .notice { border-left:4px solid #82aaff; padding:10px 14px; background:rgba(92,130,210,.12); border-radius:8px; }
+      .table-wrap { overflow-x:auto; }
+      table { width:100%; border-collapse:collapse; min-width:680px; margin-top:10px; }
+      th,td { border:1px solid var(--line); padding:10px; vertical-align:top; text-align:left; }
+      th { background:rgba(92,130,210,.18); }
+      footer { text-align:center; color:var(--muted); margin-top:28px; }
+      @media (max-width:600px) { h1{font-size:25px} header,section{padding:17px} main{padding:16px 12px 50px} }
+      @media print { body{background:#fff;color:#111} header,section{background:#fff;border-color:#bbb;break-inside:avoid} a{color:#174ea6} .muted{color:#555} }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article id="english" lang="en">
+        <header>
+          <h1>Eksperol App Privacy Policy</h1>
+          <p class="muted"><strong>Effective date and last updated:</strong> July 13, 2026 · Version 1.0</p>
+          <p>This Privacy Policy explains how the Eksperol mobile application (“Eksperol,” “the App,” “we,” “us”) accesses, collects, uses, stores, discloses, and deletes information. It is intended for the Apple App Store and Google Play versions of the App.</p>
+          <p><span class="badge">Developer / Data Controller: Eksperol</span><span class="badge">Contact: support@eksperol.app</span></p>
+          <nav><a href="#english">English</a><a href="#turkce">Türkçe</a><a href="account-deletion.html">Account deletion</a></nav>
+        </header>
 
-    <section id="tr" class="card">
-      <h2>Türkçe - Gizlilik Politikası</h2>
+        <section>
+          <h2>1. Scope and purpose of the App</h2>
+          <p>Eksperol helps people perform a preliminary, self-guided check of a used vehicle before purchase or before an official inspection. Users may register vehicles, answer checklist items, add notes and photos, review risk summaries, compare candidate vehicles, and create or share PDF reports.</p>
+          <p class="notice"><strong>Important:</strong> Eksperol is an informational self-check tool. It does not replace a professional vehicle inspection, authorized service diagnosis, official roadworthiness inspection, legal verification, or independent purchase advice.</p>
+        </section>
 
-      <h3>1) Giriş</h3>
-      <p>Bu Gizlilik Politikası, Eksperol mobil uygulamasını kullanırken kişisel verilerinizin nasıl toplandığını, işlendiğini, saklandığını ve paylaşıldığını açıklar.</p>
+        <section>
+          <h2>2. Information we process</h2>
+          <div class="table-wrap"><table>
+            <thead><tr><th>Category</th><th>Examples</th><th>Purpose</th><th>Where processed</th></tr></thead>
+            <tbody>
+              <tr><td>Account and identity</td><td>Email address, Firebase user ID, optional display name, authentication provider</td><td>Create and secure an account, sign in, reset passwords, synchronize records, respond to deletion requests</td><td>Firebase Authentication and the App</td></tr>
+              <tr><td>Google sign-in data</td><td>Basic Google profile information made available during sign-in, such as email, name, and provider identifier</td><td>Authenticate the user and connect records to the correct account</td><td>Google Sign-In and Firebase Authentication</td></tr>
+              <tr><td>Vehicle and listing data</td><td>Vehicle label, license plate, make, model, model year, fuel type, mileage, listing price, seller type, listing URL</td><td>Manage the garage, perform checks, compare candidate vehicles, and prepare reports</td><td>On-device; Firebase Cloud Firestore for signed-in users</td></tr>
+              <tr><td>Checklist and report data</td><td>Answers, issue severity, notes, score, dates, active/completed sessions, suggested actions</td><td>Save progress, calculate an indicative score, produce summaries, history, comparisons, negotiation notes, and PDFs</td><td>On-device; Firebase Cloud Firestore for signed-in users</td></tr>
+              <tr><td>Photos selected by the user</td><td>Vehicle and checklist photos taken with the camera or selected from the photo library</td><td>Display photographic evidence in the checklist, summary, and user-generated PDF</td><td>Processed locally in the current version. Image files are not uploaded to our cloud by the current App version. A local file reference may be part of a saved checklist record.</td></tr>
+              <tr><td>Files and exports</td><td>PDF report containing vehicle data, findings, notes, scores, and selected photos</td><td>Create, preview, print, and share a report when requested by the user</td><td>Generated on-device; sent only to the print/share destination selected by the user</td></tr>
+              <tr><td>Preferences and local state</td><td>Language, theme, onboarding status, guest-mode vehicles, active session, local history</td><td>Remember settings, enable offline/guest use, and restore progress</td><td>On-device storage</td></tr>
+              <tr><td>Service and security data</td><td>IP address, app identifier, device/OS and operational information that Firebase or app-store infrastructure may process</td><td>Operate, secure, and maintain authentication and cloud services</td><td>Processed by the relevant service provider under its terms</td></tr>
+              <tr><td>Support communications</td><td>Email address, message content, account-deletion or support request details</td><td>Respond to requests, verify the requester, troubleshoot, and document resolution</td><td>Email/support systems used by Eksperol</td></tr>
+            </tbody>
+          </table></div>
+        </section>
 
-      <h3>2) Toplanan Veriler</h3>
-      <ul>
-        <li>Hesap bilgileri (Google ile giriş yapılırsa ad, e-posta, kullanıcı kimliği)</li>
-        <li>Araç bilgileri (araç adı, plaka, yakıt türü, kontrol geçmişi)</li>
-        <li>Kontrol verileri (muayene/ekspertiz kontrol adımları, cevaplar, notlar)</li>
-        <li>İsteğe bağlı medya (kullanıcının eklediği fotoğraflar)</li>
-        <li>Teknik veriler (hata/performans bilgileri, cihaz ve bağlantı meta verileri)</li>
-      </ul>
+        <section>
+          <h2>3. Guest mode and signed-in mode</h2>
+          <h3>Guest mode</h3>
+          <p>Users may continue without creating an account. Guest-mode vehicles, checklist records, and preferences are primarily stored on the device and may be lost if the App is deleted, device storage is cleared, or the device is lost.</p>
+          <h3>Signed-in mode</h3>
+          <p>When a user signs in, account, vehicle, and checklist records may be transmitted to and stored in Firebase services to synchronize them across sessions or devices. Passwords are handled by Firebase Authentication; Eksperol does not receive or store a readable copy of the user’s password.</p>
+        </section>
 
-      <h3>3) Verilerin Kullanım Amaçları</h3>
-      <ul>
-        <li>Kontrol sürecini yönetmek ve rapor üretmek</li>
-        <li>Kontrol geçmişini saklamak ve kullanıcıya tekrar sunmak</li>
-        <li>Kimlik doğrulama ve hesap güvenliğini sağlamak</li>
-        <li>Uygulama performansı, hata analizi ve iyileştirme</li>
-      </ul>
+        <section>
+          <h2>4. Device features and permissions</h2>
+          <div class="table-wrap"><table>
+            <thead><tr><th>Feature / permission</th><th>When requested or used</th><th>Why it is needed</th><th>If declined</th></tr></thead>
+            <tbody>
+              <tr><td>Camera</td><td>Only when the user chooses “Take photo” for a checklist item</td><td>Capture vehicle evidence for the user’s own record and PDF</td><td>The user can continue without photos or choose an existing image where available</td></tr>
+              <tr><td>Photo library / media picker</td><td>Only when the user chooses an image from the device</td><td>Attach an existing vehicle photo to a checklist item</td><td>Checklist and reporting features remain available without photo attachments</td></tr>
+              <tr><td>Internet access</td><td>During authentication, password reset, Google sign-in, cloud synchronization, opening policy links, and obtaining PDF font resources where necessary</td><td>Provide account, synchronization, policy-link, and report functionality</td><td>Guest and locally available features may continue; online functions may fail or remain unavailable</td></tr>
+              <tr><td>Print and share services</td><td>Only after the user selects PDF preview, print, export, or share</td><td>Deliver the user-generated report to the destination selected by the user</td><td>No PDF is sent to another app or service</td></tr>
+            </tbody>
+          </table></div>
+          <p>Eksperol does not currently request precise or approximate location, contacts, microphone, SMS, call logs, health data, advertising ID, or broad “all files” storage access. The App does not currently provide an active artificial-intelligence analysis feature.</p>
+        </section>
 
-      <h3>4) Veri Paylaşımı</h3>
-      <p>Eksperol, kişisel verileri satmaz. Veriler yalnızca hizmetin çalışması için gerekli üçüncü taraf altyapılarla (ör. Firebase, Google Sign-In) paylaşılabilir.</p>
+        <section>
+          <h2>5. How we use information</h2>
+          <ul>
+            <li>Provide account registration, login, password reset, guest use, and synchronization.</li>
+            <li>Save vehicles, checklist progress, findings, notes, scores, history, and comparison information.</li>
+            <li>Generate risk summaries, broad indicative risk-budget ranges, negotiation prompts, and PDF reports.</li>
+            <li>Maintain security, prevent unauthorized access, diagnose faults, and provide support.</li>
+            <li>Comply with valid legal requests and enforce applicable terms.</li>
+          </ul>
+          <p>We do not sell personal data. We do not use vehicle, checklist, photo, or account data for third-party targeted advertising. The current App does not include an advertising SDK.</p>
+        </section>
 
-      <h3>5) Veri Saklama ve Silme</h3>
-      <p>Veriler, hizmet sunumu için gerekli olduğu sürece saklanır. Kullanıcı uygulama içinden kayıtlarını silebilir. Hesap/veri silme talepleri için aşağıdaki iletişim bilgileri kullanılabilir.</p>
+        <section>
+          <h2>6. Legal bases</h2>
+          <p>Depending on the user’s country and applicable law, processing may rely on: performance of the service requested by the user; consent for optional device access such as camera or photos; our legitimate interests in securing, maintaining, and supporting the App; and compliance with legal obligations. Users can withdraw optional permission through device settings, although this does not affect processing already lawfully performed.</p>
+        </section>
 
-      <h3>6) İzinler</h3>
-      <p>Uygulama; internet, kamera ve galeri gibi izinleri yalnızca ilgili özellikler kullanıldığında talep eder.</p>
+        <section>
+          <h2>7. Service providers and disclosure</h2>
+          <p>We disclose information only as needed to operate requested functions or comply with law. Relevant recipients may include:</p>
+          <ul>
+            <li><strong>Google Firebase:</strong> Firebase Authentication and Cloud Firestore for account and cloud-record functions.</li>
+            <li><strong>Google Sign-In:</strong> authentication when the user chooses Google as the sign-in method.</li>
+            <li><strong>Apple and Google app-store infrastructure:</strong> distribution, platform security, and store-level operations under their own policies.</li>
+            <li><strong>User-selected apps or services:</strong> only when the user chooses to print or share a PDF, open a listing URL, or contact support.</li>
+            <li><strong>Authorities or professional advisers:</strong> when legally required or reasonably necessary to protect rights, users, or the service.</li>
+          </ul>
+          <p>Third-party services process information under their own terms and privacy notices. We expect service providers handling data on our behalf to apply appropriate privacy and security protections.</p>
+        </section>
 
-      <h3>7) Güvenlik</h3>
-      <p>Verileri korumak için makul teknik ve idari önlemler uygulanır. Ancak internet üzerinden yapılan hiçbir iletim tamamen risksiz değildir.</p>
+        <section>
+          <h2>8. Retention and deletion</h2>
+          <ul>
+            <li><strong>Guest data:</strong> remains on the device until deleted in the App, removed by clearing storage, or removed with the App.</li>
+            <li><strong>Account and cloud records:</strong> kept while the account is active or as needed to provide the service, then deleted or anonymized following a valid deletion request, subject to legal obligations and technical backup cycles.</li>
+            <li><strong>Local photos:</strong> remain subject to device storage and operating-system behavior. Removing a photo from a checklist removes its reference from that checklist but may not delete the original image from the user’s photo library.</li>
+            <li><strong>Support communications:</strong> retained only as reasonably needed to resolve the request, maintain security records, and meet legal obligations.</li>
+          </ul>
+          <p>Users can initiate deletion in <strong>Settings → Account → Permanently delete account</strong>. The App attempts to delete the Firebase account and associated cloud vehicle and checklist records. Firebase may require recent authentication before deletion. Users without App access may email <a href="mailto:support@eksperol.app">support@eksperol.app</a>. See the <a href="account-deletion.html">account deletion page</a>.</p>
+        </section>
 
-      <h3>8) Çocukların Gizliliği</h3>
-      <p>Uygulama 13 yaş altındaki çocuklara yönelik değildir.</p>
+        <section>
+          <h2>9. Security</h2>
+          <p>We use reasonable technical and organizational measures, including authenticated user separation in cloud database rules, platform-provided secure transport, restricted access, and data minimization. No network transmission or storage system is completely secure; therefore, we cannot guarantee absolute security. Users should protect their device and account credentials and avoid including unnecessary sensitive information in notes or photos.</p>
+        </section>
 
-      <h3>9) Değişiklikler</h3>
-      <p>Bu politika zaman zaman güncellenebilir. Güncel sürüm bu sayfada yayımlanır.</p>
+        <section>
+          <h2>10. International processing</h2>
+          <p>Firebase, Google, Apple, or other user-selected services may process data in countries outside the user’s country of residence. Where required, such processing is subject to applicable contractual and legal safeguards. Users should review the privacy information of the relevant platform or service provider.</p>
+        </section>
 
-      <h3>10) İletişim</h3>
-      <p>E-posta: <a href="mailto:egehancakir@gmail.com">support@eksperol.app</a></p>
-    </section>
+        <section>
+          <h2>11. Children’s privacy</h2>
+          <p>Eksperol is intended for people evaluating or managing vehicle purchases and is not directed to children. We do not knowingly solicit personal data from children. If you believe a child has provided personal data, contact us so that we can review and delete it where appropriate.</p>
+        </section>
 
-    <section id="en" class="card">
-      <h2>English - Privacy Policy</h2>
+        <section>
+          <h2>12. User choices and rights</h2>
+          <p>Subject to applicable law, users may request access, correction, deletion, restriction, objection, portability, or information about processing. Users may also:</p>
+          <ul>
+            <li>Use guest mode instead of creating an account.</li>
+            <li>Decline camera or photo-library access.</li>
+            <li>Edit or delete vehicles and checklist records in the App.</li>
+            <li>Sign out or permanently delete the account.</li>
+            <li>Choose whether and where to share a PDF.</li>
+          </ul>
+          <p>Requests can be sent to <a href="mailto:support@eksperol.app">support@eksperol.app</a>. We may request reasonable verification before acting on an account-related request.</p>
+        </section>
 
-      <h3>1) Introduction</h3>
-      <p>This Privacy Policy explains how personal data is collected, processed, stored, and shared when you use the Eksperol mobile application.</p>
+        <section>
+          <h2>13. Changes and contact</h2>
+          <p>We may update this Policy when App functions, service providers, legal requirements, or data practices change. The updated version will be posted at this URL with a revised effective date. Material changes may also be communicated in the App where appropriate.</p>
+          <p><strong>Privacy contact / Data Controller:</strong> Eksperol<br /><strong>Email:</strong> <a href="mailto:support@eksperol.app">support@eksperol.app</a><br /><strong>Application:</strong> Eksperol for iOS and Android</p>
+        </section>
+      </article>
 
-      <h3>2) Data We Collect</h3>
-      <ul>
-        <li>Account data (if Google Sign-In is used: name, email, user identifier)</li>
-        <li>Vehicle data (vehicle name, plate, fuel type, check history)</li>
-        <li>Inspection data (pre-check steps, responses, notes)</li>
-        <li>Optional media (photos added by the user)</li>
-        <li>Technical data (error/performance logs, device and connection metadata)</li>
-      </ul>
+      <hr class="language-break" />
 
-      <h3>3) How We Use Data</h3>
-      <ul>
-        <li>To run the inspection workflow and generate reports</li>
-        <li>To store history and make previous checks accessible</li>
-        <li>To provide authentication and account security</li>
-        <li>To improve stability, performance, and user experience</li>
-      </ul>
+      <article id="turkce" lang="tr">
+        <header>
+          <h1>Eksperol Uygulama Gizlilik Politikası</h1>
+          <p class="muted"><strong>Yürürlük ve son güncelleme tarihi:</strong> 13 Temmuz 2026 · Sürüm 1.0</p>
+          <p>Bu Gizlilik Politikası, Eksperol mobil uygulamasının (“Eksperol”, “Uygulama”, “biz”) bilgilere nasıl eriştiğini, bu bilgileri nasıl topladığını, kullandığını, sakladığını, aktardığını ve sildiğini açıklar. Metin, Uygulamanın Apple App Store ve Google Play sürümleri için hazırlanmıştır.</p>
+          <p><span class="badge">Geliştirici / Veri Sorumlusu: Eksperol</span><span class="badge">İletişim: support@eksperol.app</span></p>
+          <nav><a href="#english">English</a><a href="#turkce">Türkçe</a><a href="account-deletion.html">Hesap silme</a></nav>
+        </header>
 
-      <h3>4) Data Sharing</h3>
-      <p>Eksperol does not sell personal data. Data may be shared only with required infrastructure providers (e.g., Firebase, Google Sign-In) to deliver core app functionality.</p>
+        <section>
+          <h2>1. Kapsam ve Uygulamanın amacı</h2>
+          <p>Eksperol; ikinci el araç satın almadan veya resmi muayeneden önce kullanıcının yönlendirmeli bir ön kontrol yapmasına yardımcı olur. Kullanıcılar araç kaydedebilir, kontrol maddelerini yanıtlayabilir, not ve fotoğraf ekleyebilir, risk özetlerini inceleyebilir, aday araçları karşılaştırabilir ve PDF raporu oluşturup paylaşabilir.</p>
+          <p class="notice"><strong>Önemli:</strong> Eksperol bilgilendirme amaçlı kişisel bir ön kontrol aracıdır. Profesyonel ekspertiz, yetkili servis teşhisi, resmi araç muayenesi, hukuki doğrulama veya bağımsız satın alma danışmanlığının yerine geçmez.</p>
+        </section>
 
-      <h3>5) Data Retention and Deletion</h3>
-      <p>Data is retained as long as necessary to provide the service. Users can delete records in-app. For account/data deletion requests, contact us using the details below.</p>
+        <section>
+          <h2>2. İşlediğimiz bilgiler</h2>
+          <div class="table-wrap"><table>
+            <thead><tr><th>Kategori</th><th>Örnekler</th><th>Kullanım amacı</th><th>İşlendiği yer</th></tr></thead>
+            <tbody>
+              <tr><td>Hesap ve kimlik bilgileri</td><td>E-posta adresi, Firebase kullanıcı kimliği, isteğe bağlı görünen ad, giriş sağlayıcısı</td><td>Hesap oluşturmak ve korumak, giriş yapmak, şifre sıfırlamak, kayıtları eşitlemek, silme taleplerini yanıtlamak</td><td>Firebase Authentication ve Uygulama</td></tr>
+              <tr><td>Google ile giriş bilgileri</td><td>Giriş sırasında Google tarafından sağlanan e-posta, ad ve sağlayıcı kimliği gibi temel profil bilgileri</td><td>Kullanıcının kimliğini doğrulamak ve kayıtları doğru hesaba bağlamak</td><td>Google Sign-In ve Firebase Authentication</td></tr>
+              <tr><td>Araç ve ilan bilgileri</td><td>Araç adı, plaka, marka, model, model yılı, yakıt türü, kilometre, ilan fiyatı, satıcı tipi, ilan bağlantısı</td><td>Garajı yönetmek, kontrol yapmak, aday araçları karşılaştırmak ve rapor hazırlamak</td><td>Cihaz üzerinde; giriş yapan kullanıcılar için Firebase Cloud Firestore</td></tr>
+              <tr><td>Kontrol ve rapor bilgileri</td><td>Yanıtlar, sorun önem seviyesi, notlar, puan, tarihler, aktif/tamamlanmış oturumlar, önerilen aksiyonlar</td><td>İlerlemeyi kaydetmek, gösterge niteliğinde puan üretmek, özet, geçmiş, karşılaştırma, pazarlık notu ve PDF oluşturmak</td><td>Cihaz üzerinde; giriş yapan kullanıcılar için Firebase Cloud Firestore</td></tr>
+              <tr><td>Kullanıcının seçtiği fotoğraflar</td><td>Kamera ile çekilen veya fotoğraf arşivinden seçilen araç ve kontrol görselleri</td><td>Kontrol, özet ve kullanıcının oluşturduğu PDF içinde fotoğraf kanıtı göstermek</td><td>Mevcut sürümde yerel olarak işlenir. Görsel dosyaları mevcut Uygulama sürümü tarafından bulutumuza yüklenmez. Yerel dosya referansı kaydedilen kontrol kaydının parçası olabilir.</td></tr>
+              <tr><td>Dosya ve dışa aktarımlar</td><td>Araç bilgisi, bulgu, not, puan ve seçilen fotoğrafları içeren PDF raporu</td><td>Kullanıcı talep ettiğinde raporu oluşturmak, önizlemek, yazdırmak ve paylaşmak</td><td>Cihazda oluşturulur; yalnızca kullanıcının seçtiği yazdırma/paylaşma hedefine gönderilir</td></tr>
+              <tr><td>Tercihler ve yerel durum</td><td>Dil, tema, tanıtım ekranı durumu, misafir araçları, aktif kontrol, yerel geçmiş</td><td>Ayarları hatırlamak, misafir/çevrimdışı kullanımı ve ilerleme geri yüklemeyi sağlamak</td><td>Cihaz depolaması</td></tr>
+              <tr><td>Hizmet ve güvenlik bilgileri</td><td>Firebase veya mağaza altyapısının işleyebileceği IP adresi, uygulama kimliği, cihaz/işletim sistemi ve operasyon bilgileri</td><td>Kimlik doğrulama ve bulut hizmetlerini işletmek, güvenliğini sağlamak ve sürdürmek</td><td>İlgili hizmet sağlayıcı tarafından kendi koşulları kapsamında işlenir</td></tr>
+              <tr><td>Destek iletişimleri</td><td>E-posta adresi, mesaj içeriği, hesap silme veya destek talebi bilgileri</td><td>Talebi yanıtlamak, talep sahibini doğrulamak, sorun gidermek ve sonucu belgelemek</td><td>Eksperol tarafından kullanılan e-posta/destek sistemleri</td></tr>
+            </tbody>
+          </table></div>
+        </section>
 
-      <h3>6) Permissions</h3>
-      <p>The app requests permissions such as internet, camera, and gallery access only when those features are used.</p>
+        <section>
+          <h2>3. Misafir modu ve giriş yapılmış kullanım</h2>
+          <h3>Misafir modu</h3>
+          <p>Kullanıcı hesap oluşturmadan devam edebilir. Misafir araçları, kontrol kayıtları ve tercihler ağırlıklı olarak cihazda saklanır; Uygulama silinirse, depolama temizlenirse veya cihaz kaybolursa bu veriler kaybedilebilir.</p>
+          <h3>Giriş yapılmış kullanım</h3>
+          <p>Kullanıcı giriş yaptığında hesap, araç ve kontrol kayıtları oturumlar veya cihazlar arasında eşitleme amacıyla Firebase hizmetlerine aktarılabilir ve burada saklanabilir. Şifreler Firebase Authentication tarafından işlenir; Eksperol kullanıcının şifresinin okunabilir bir kopyasını almaz veya saklamaz.</p>
+        </section>
 
-      <h3>7) Security</h3>
-      <p>We apply reasonable administrative and technical safeguards. However, no internet transmission is fully risk-free.</p>
+        <section>
+          <h2>4. Cihaz özellikleri ve izinler</h2>
+          <div class="table-wrap"><table>
+            <thead><tr><th>Özellik / izin</th><th>Ne zaman kullanılır?</th><th>Neden gereklidir?</th><th>Reddedilirse</th></tr></thead>
+            <tbody>
+              <tr><td>Kamera</td><td>Yalnızca kullanıcı kontrol maddesinde “Fotoğraf çek” seçeneğini kullandığında</td><td>Kullanıcının kendi kaydı ve PDF’i için araç görseli çekmek</td><td>Kullanıcı fotoğrafsız devam edebilir veya mümkünse mevcut bir görsel seçebilir</td></tr>
+              <tr><td>Fotoğraf arşivi / medya seçici</td><td>Yalnızca kullanıcı cihazdan bir görsel seçtiğinde</td><td>Mevcut araç fotoğrafını kontrol maddesine eklemek</td><td>Kontrol ve rapor özellikleri fotoğraf olmadan kullanılmaya devam eder</td></tr>
+              <tr><td>İnternet erişimi</td><td>Kimlik doğrulama, şifre sıfırlama, Google ile giriş, bulut eşitleme, politika bağlantılarını açma ve gerektiğinde PDF font kaynağını alma sırasında</td><td>Hesap, eşitleme, politika bağlantısı ve rapor özelliklerini sağlamak</td><td>Misafir ve yerel özellikler çalışabilir; çevrimiçi işlevler kullanılamayabilir</td></tr>
+              <tr><td>Yazdırma ve paylaşma hizmetleri</td><td>Yalnızca kullanıcı PDF önizleme, yazdırma, dışa aktarma veya paylaşma seçtiğinde</td><td>Kullanıcının oluşturduğu raporu seçtiği hedefe iletmek</td><td>PDF başka uygulama veya hizmete gönderilmez</td></tr>
+            </tbody>
+          </table></div>
+          <p>Eksperol şu anda kesin veya yaklaşık konum, kişiler, mikrofon, SMS, arama kayıtları, sağlık verisi, reklam kimliği veya geniş kapsamlı “tüm dosyalar” depolama izni istemez. Uygulamada şu anda aktif bir yapay zekâ analiz özelliği bulunmaz.</p>
+        </section>
 
-      <h3>8) Children</h3>
-      <p>The app is not intended for children under 13 years old.</p>
+        <section>
+          <h2>5. Bilgileri kullanma amaçlarımız</h2>
+          <ul>
+            <li>Hesap kaydı, giriş, şifre sıfırlama, misafir kullanımı ve eşitleme sağlamak.</li>
+            <li>Araçları, kontrol ilerlemesini, bulguları, notları, puanları, geçmişi ve karşılaştırmaları kaydetmek.</li>
+            <li>Risk özeti, geniş ve gösterge niteliğinde risk bütçesi aralığı, pazarlık soruları ve PDF raporu üretmek.</li>
+            <li>Güvenliği sağlamak, yetkisiz erişimi önlemek, hataları gidermek ve destek vermek.</li>
+            <li>Geçerli hukuki talepleri yerine getirmek ve uygulanabilir koşulları uygulamak.</li>
+          </ul>
+          <p>Kişisel verileri satmayız. Araç, kontrol, fotoğraf veya hesap verilerini üçüncü taraf hedefli reklam amacıyla kullanmayız. Mevcut Uygulamada reklam SDK’sı bulunmaz.</p>
+        </section>
 
-      <h3>9) Changes</h3>
-      <p>This policy may be updated from time to time. The latest version will always be published on this page.</p>
+        <section>
+          <h2>6. Hukuki sebepler</h2>
+          <p>Kullanıcının ülkesi ve uygulanabilir mevzuata göre veri işleme; kullanıcının talep ettiği hizmetin sunulmasına, kamera/fotoğraf gibi isteğe bağlı erişimler için açık rızaya, Uygulamanın güvenliğini sağlama, bakımını yapma ve destek sunma konusundaki meşru menfaatlerimize ve hukuki yükümlülüklere dayanabilir. Kullanıcı isteğe bağlı izni cihaz ayarlarından geri alabilir; bu işlem daha önce hukuka uygun olarak gerçekleştirilen işlemeyi etkilemez.</p>
+        </section>
 
-      <h3>10) Contact</h3>
-      <p>Email: <a href="mailto:egehancakir@gmail.com">egehancakir@gmail.com</a></p>
-    </section>
+        <section>
+          <h2>7. Hizmet sağlayıcılar ve aktarım</h2>
+          <p>Bilgileri yalnızca talep edilen işlevleri sağlamak veya hukuki yükümlülükleri yerine getirmek için gerektiği ölçüde aktarırız. İlgili alıcılar şunlar olabilir:</p>
+          <ul>
+            <li><strong>Google Firebase:</strong> hesap ve bulut kaydı işlevleri için Firebase Authentication ve Cloud Firestore.</li>
+            <li><strong>Google Sign-In:</strong> kullanıcı Google ile giriş yöntemini seçtiğinde kimlik doğrulama.</li>
+            <li><strong>Apple ve Google mağaza altyapısı:</strong> kendi politikaları kapsamında dağıtım, platform güvenliği ve mağaza işlemleri.</li>
+            <li><strong>Kullanıcının seçtiği uygulama veya hizmetler:</strong> yalnızca kullanıcı PDF yazdırmayı/paylaşmayı, ilan bağlantısı açmayı veya desteğe ulaşmayı seçtiğinde.</li>
+            <li><strong>Yetkili merciler veya profesyonel danışmanlar:</strong> hukuken zorunlu olduğunda ya da hakları, kullanıcıları veya hizmeti korumak için makul şekilde gerektiğinde.</li>
+          </ul>
+          <p>Üçüncü taraf hizmetleri bilgileri kendi koşulları ve gizlilik bildirimleri kapsamında işler. Bizim adımıza veri işleyen hizmet sağlayıcıların uygun gizlilik ve güvenlik önlemleri uygulamasını bekleriz.</p>
+        </section>
 
-    <p class="footer">© 2026 Eksperol. All rights reserved.</p>
-  </main>
-</body>
+        <section>
+          <h2>8. Saklama ve silme</h2>
+          <ul>
+            <li><strong>Misafir verileri:</strong> Uygulamada silinene, cihaz depolaması temizlenene veya Uygulama kaldırılana kadar cihazda kalır.</li>
+            <li><strong>Hesap ve bulut kayıtları:</strong> hesap aktif olduğu veya hizmeti sağlamak için gerektiği sürece tutulur; geçerli silme talebinden sonra hukuki yükümlülükler ve teknik yedekleme döngüleri saklı kalmak üzere silinir veya anonimleştirilir.</li>
+            <li><strong>Yerel fotoğraflar:</strong> cihaz depolaması ve işletim sistemi davranışına tabidir. Fotoğrafı kontrol kaydından kaldırmak, bu kayıttaki referansı kaldırır; kullanıcının fotoğraf arşivindeki asıl görseli silmeyebilir.</li>
+            <li><strong>Destek iletişimleri:</strong> talebi sonuçlandırmak, güvenlik kaydını korumak ve hukuki yükümlülükleri karşılamak için makul ölçüde gerekli süre boyunca tutulur.</li>
+          </ul>
+          <p>Kullanıcı silme işlemini <strong>Ayarlar → Hesap → Hesabı kalıcı sil</strong> yolundan başlatabilir. Uygulama Firebase hesabını ve ilişkili bulut araç/kontrol kayıtlarını silmeye çalışır. Firebase silme öncesinde yakın tarihli kimlik doğrulama isteyebilir. Uygulamaya erişemeyen kullanıcılar <a href="mailto:support@eksperol.app">support@eksperol.app</a> adresine yazabilir. Ayrıntılar için <a href="account-deletion.html">hesap silme sayfasını</a> inceleyebilirsiniz.</p>
+        </section>
+
+        <section>
+          <h2>9. Güvenlik</h2>
+          <p>Bulut veritabanı kurallarında kimliği doğrulanmış kullanıcı ayrımı, platformların sağladığı güvenli iletişim, kısıtlı erişim ve veri minimizasyonu dahil makul teknik ve idari önlemler kullanırız. Hiçbir ağ aktarımı veya depolama sistemi tamamen güvenli değildir; bu nedenle mutlak güvenlik garanti edemeyiz. Kullanıcıların cihazlarını ve hesap bilgilerini koruması, not veya fotoğraflara gereksiz hassas bilgi eklememesi gerekir.</p>
+        </section>
+
+        <section>
+          <h2>10. Yurt dışı işleme</h2>
+          <p>Firebase, Google, Apple veya kullanıcının seçtiği diğer hizmetler verileri kullanıcının yaşadığı ülke dışındaki ülkelerde işleyebilir. Gerektiğinde bu işlemler uygulanabilir sözleşmesel ve hukuki güvencelere tabidir. Kullanıcıların ilgili platform veya hizmet sağlayıcının gizlilik bilgilerini incelemesi önerilir.</p>
+        </section>
+
+        <section>
+          <h2>11. Çocukların gizliliği</h2>
+          <p>Eksperol araç satın alma veya araç yönetimi değerlendirmesi yapan kişilere yöneliktir ve çocukları hedeflemez. Çocuklardan bilerek kişisel veri talep etmeyiz. Bir çocuğun kişisel veri sağladığını düşünüyorsanız inceleyip gerektiğinde silebilmemiz için bizimle iletişime geçin.</p>
+        </section>
+
+        <section>
+          <h2>12. Kullanıcının tercihleri ve hakları</h2>
+          <p>Uygulanabilir mevzuat kapsamında kullanıcılar erişim, düzeltme, silme, işlemeyi kısıtlama, itiraz, veri taşınabilirliği veya işleme hakkında bilgi talep edebilir. Kullanıcı ayrıca:</p>
+          <ul>
+            <li>Hesap açmak yerine misafir modunu kullanabilir.</li>
+            <li>Kamera veya fotoğraf arşivi erişimini reddedebilir.</li>
+            <li>Araç ve kontrol kayıtlarını Uygulama içinde düzenleyebilir veya silebilir.</li>
+            <li>Çıkış yapabilir veya hesabını kalıcı olarak silebilir.</li>
+            <li>PDF’i paylaşıp paylaşmayacağını ve paylaşım hedefini seçebilir.</li>
+          </ul>
+          <h3>KVKK kapsamındaki haklar</h3>
+          <p>6698 sayılı Kişisel Verilerin Korunması Kanunu’nun 11. maddesi kapsamında kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme, işleme amacını ve amaca uygun kullanılıp kullanılmadığını öğrenme, aktarılan üçüncü kişileri bilme, eksik veya yanlış işlenen verilerin düzeltilmesini isteme, şartları oluştuğunda silme veya yok etme talep etme, düzeltme/silme işlemlerinin aktarılan üçüncü kişilere bildirilmesini isteme, münhasıran otomatik sistem analizi sonucu aleyhe bir sonuca itiraz etme ve kanuna aykırı işleme nedeniyle zararın giderilmesini talep etme hakkınız bulunabilir.</p>
+          <p>Talepler <a href="mailto:support@eksperol.app">support@eksperol.app</a> adresine gönderilebilir. Hesapla ilişkili bir işlem yapmadan önce makul kimlik doğrulaması isteyebiliriz.</p>
+        </section>
+
+        <section>
+          <h2>13. Değişiklikler ve iletişim</h2>
+          <p>Uygulama özellikleri, hizmet sağlayıcılar, hukuki gereklilikler veya veri uygulamaları değiştiğinde bu Politikayı güncelleyebiliriz. Yeni sürüm, güncellenmiş yürürlük tarihiyle aynı URL’de yayımlanır. Önemli değişiklikler uygun olduğunda Uygulama içinde de bildirilebilir.</p>
+          <p><strong>Gizlilik iletişimi / Veri Sorumlusu:</strong> Eksperol<br /><strong>E-posta:</strong> <a href="mailto:support@eksperol.app">support@eksperol.app</a><br /><strong>Uygulama:</strong> iOS ve Android için Eksperol</p>
+        </section>
+      </article>
+
+      <footer>© 2026 Eksperol · Privacy Policy / Gizlilik Politikası</footer>
+    </main>
+  </body>
 </html>
