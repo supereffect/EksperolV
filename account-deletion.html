@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eksperol - Account & Data Deletion / Hesap ve Veri Silme</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        line-height: 1.55;
+        background: #0b1325;
+        color: #eaf0ff;
+      }
+      .wrap { max-width: 960px; margin: 0 auto; padding: 28px 18px 56px; }
+      .tabs {
+        display: inline-flex;
+        gap: 8px;
+        margin: 10px 0 4px;
+        padding: 6px;
+        border: 1px solid rgba(92, 130, 210, 0.35);
+        border-radius: 999px;
+        background: rgba(21, 35, 68, 0.58);
+      }
+      .tab {
+        padding: 6px 12px;
+        border-radius: 999px;
+        color: #dbe7ff;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+      }
+      .tab:hover { background: rgba(92, 130, 210, 0.28); }
+      .card {
+        background: rgba(21, 35, 68, 0.88);
+        border: 1px solid rgba(92, 130, 210, 0.35);
+        border-radius: 16px;
+        padding: 20px;
+        margin-top: 14px;
+      }
+      h1, h2, h3 { margin: 0 0 10px; }
+      h1 { font-size: 28px; }
+      h2 { font-size: 20px; }
+      h3 { font-size: 17px; margin-top: 18px; }
+      ul, ol { margin: 10px 0 0 18px; }
+      a { color: #8bb8ff; }
+      .muted { color: #b6c5e7; }
+      .lang-section { scroll-margin-top: 14px; }
+      .divider {
+        margin: 18px 0;
+        height: 1px;
+        border: 0;
+        background: rgba(166, 188, 230, 0.25);
+      }
+      .badge {
+        display: inline-block;
+        padding: 4px 10px;
+        border-radius: 999px;
+        background: rgba(92, 130, 210, 0.2);
+        border: 1px solid rgba(92, 130, 210, 0.45);
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <h1>Eksperol - Account & Data Deletion</h1>
+      <p class="muted">Single-page version in Turkish and English for Google Play account deletion URL requirement.</p>
+      <p><span class="badge">App: Eksperol</span></p>
+      <div class="tabs">
+        <a class="tab" href="#tr">TR</a>
+        <a class="tab" href="#en">EN</a>
+      </div>
+
+      <section id="tr" class="card lang-section" lang="tr">
+        <h2>Türkçe</h2>
+        <p class="muted">Bu bölüm, Eksperol kullanıcılarının hesaplarını ve ilişkili verilerini nasıl sileceğini açıklar.</p>
+
+        <h3>Uygulama içinden hesap silme adımları</h3>
+        <ol>
+          <li>Eksperol uygulamasını aç.</li>
+          <li><strong>Ayarlar</strong> ekranına gir.</li>
+          <li><strong>Hesap</strong> bölümünde <strong>"Hesabı kalıcı sil"</strong> seçeneğine dokun.</li>
+          <li>Onay penceresini onayla.</li>
+        </ol>
+
+        <h3>Uygulamaya erişemiyorsan</h3>
+        <ul>
+          <li>E-posta: <a href="mailto:support@eksperol.app">support@eksperol.app</a></li>
+          <li>Konu: <strong>Eksperol Hesap Silme Talebi</strong></li>
+          <li>Mesaj: Hesabındaki e-posta adresini ve talebini yaz.</li>
+        </ul>
+
+        <h3>Silinen veri türleri</h3>
+        <ul>
+          <li>Firebase Authentication hesap kaydı (UID, e-posta, profil adı)</li>
+          <li>Araç garajı verileri</li>
+          <li>Kontrol geçmişi, notlar ve puan özetleri</li>
+          <li>Aktif kontrol oturumu verileri</li>
+        </ul>
+
+        <h3>Saklanan veriler ve saklama süreleri</h3>
+        <ul>
+          <li>Güvenlik/denetim amaçlı teknik kayıtlar en fazla <strong>30 gün</strong> saklanabilir.</li>
+          <li>Yasal zorunluluk doğuran kayıtlar, ilgili mevzuatın gerektirdiği süre boyunca saklanabilir.</li>
+        </ul>
+        <p class="muted">Süreler tamamlandığında veriler kalıcı olarak silinir veya anonim hale getirilir.</p>
+
+        <h3>Önemli not</h3>
+        <p>Hesap silme işlemi geri alınamaz.</p>
+      </section>
+
+      <hr class="divider" />
+
+      <section id="en" class="card lang-section" lang="en">
+        <h2>English</h2>
+        <p class="muted">This section explains how Eksperol users can request account and related data deletion.</p>
+
+        <h3>Delete your account from within the app</h3>
+        <ol>
+          <li>Open the Eksperol app.</li>
+          <li>Go to <strong>Settings</strong>.</li>
+          <li>In the <strong>Account</strong> section, tap <strong>"Delete account permanently"</strong>.</li>
+          <li>Confirm the deletion prompt.</li>
+        </ol>
+
+        <h3>If you cannot access the app</h3>
+        <ul>
+          <li>Email: <a href="mailto:support@eksperol.app">support@eksperol.app</a></li>
+          <li>Subject: <strong>Eksperol Account Deletion Request</strong></li>
+          <li>Message: Include the email linked to your account and your request.</li>
+        </ul>
+
+        <h3>Data deleted</h3>
+        <ul>
+          <li>Firebase Authentication account record (UID, email, display name)</li>
+          <li>Vehicle garage data</li>
+          <li>Inspection history, notes, and scoring summaries</li>
+          <li>Active inspection session data</li>
+        </ul>
+
+        <h3>Data retained and retention periods</h3>
+        <ul>
+          <li>Technical security/audit logs may be retained for up to <strong>30 days</strong>.</li>
+          <li>Records required by law may be retained for the legally required duration.</li>
+        </ul>
+        <p class="muted">After the retention period, data is permanently deleted or anonymized.</p>
+
+        <h3>Important</h3>
+        <p>Account deletion is permanent and cannot be undone.</p>
+      </section>
+    </main>
+  </body>
+</html>

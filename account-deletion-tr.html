@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eksperol - Hesap ve Veri Silme</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        line-height: 1.55;
+        background: #0b1325;
+        color: #eaf0ff;
+      }
+      .wrap { max-width: 900px; margin: 0 auto; padding: 32px 18px 56px; }
+      .card {
+        background: rgba(21, 35, 68, 0.88);
+        border: 1px solid rgba(92, 130, 210, 0.35);
+        border-radius: 16px;
+        padding: 20px;
+        margin-top: 14px;
+      }
+      h1, h2 { margin: 0 0 10px; }
+      h1 { font-size: 28px; }
+      h2 { font-size: 20px; margin-top: 4px; }
+      ul, ol { margin: 10px 0 0 18px; }
+      a { color: #8bb8ff; }
+      .muted { color: #b6c5e7; }
+      .badge {
+        display: inline-block;
+        padding: 4px 10px;
+        border-radius: 999px;
+        background: rgba(92, 130, 210, 0.2);
+        border: 1px solid rgba(92, 130, 210, 0.45);
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <h1>Eksperol - Hesap ve Veri Silme Talebi</h1>
+      <p class="muted">Bu sayfa, Eksperol kullanıcılarının hesaplarını ve ilişkili verilerini nasıl sileceğini açıklar.</p>
+      <p><span class="badge">Uygulama: Eksperol</span></p>
+
+      <section class="card">
+        <h2>Uygulama içinden hesap silme adımları</h2>
+        <ol>
+          <li>Eksperol uygulamasını aç.</li>
+          <li><strong>Ayarlar</strong> ekranına gir.</li>
+          <li><strong>Hesap</strong> bölümünde <strong>"Hesabı kalıcı sil"</strong> seçeneğine dokun.</li>
+          <li>Onay penceresini onayla.</li>
+        </ol>
+      </section>
+
+      <section class="card">
+        <h2>Uygulamaya erişemiyorsan</h2>
+        <p>Uygulamaya erişimin yoksa hesap silme talebini e-posta ile iletebilirsin:</p>
+        <ul>
+          <li>E-posta: <a href="mailto:egehancakir@gmail.com">egehancakir@gmail.com</a></li>
+          <li>Konu: <strong>Eksperol Hesap Silme Talebi</strong></li>
+          <li>Mesaj: Hesabındaki e-posta adresini ve talebini yaz.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Silinen veri türleri</h2>
+        <ul>
+          <li>Firebase Authentication hesap kaydı (UID, e-posta, profil adı)</li>
+          <li>Araç garajı verileri</li>
+          <li>Kontrol geçmişi, notlar ve puan özetleri</li>
+          <li>Aktif kontrol oturumu verileri</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Saklanan veriler ve saklama süreleri</h2>
+        <ul>
+          <li>Güvenlik/denetim amaçlı teknik kayıtlar en fazla <strong>30 gün</strong> saklanabilir.</li>
+          <li>Yasal zorunluluk doğuran kayıtlar, ilgili mevzuatın gerektirdiği süre boyunca saklanabilir.</li>
+        </ul>
+        <p class="muted">Yukarıdaki süreler tamamlandığında veriler kalıcı olarak silinir veya anonim hale getirilir.</p>
+      </section>
+
+      <section class="card">
+        <h2>Önemli not</h2>
+        <p>Hesap silme işlemi geri alınamaz.</p>
+      </section>
+    </main>
+  </body>
+</html>
